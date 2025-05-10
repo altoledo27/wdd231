@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 231: Web Frontend Development 1 | Ana Toledo</title>
+    <meta name= "description" content= "Demonstrates your prerequisite knowledge by applying HTML, CSS, and JavaScript to the design and development your course home page.">
+    <meta name="author" content="Ana Laura Toledo">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/base-large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Stoke:wght@300;400&display=swap" rel="stylesheet">
+    <script src="scripts/getdates.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="name-heading">
+                <picture>
+                    <source srcset="images/profile-photo-large.webp" media = "min-width: 1000px"> 
+                    <source srcset="images/profile-photo-medium.webp" media = "min-width: 600px"> 
+                    <img src="images/profile-photo.webp" alt="profile photo">
+                 </picture> 
+                <span>Ana L. Toledo</span>
+            </div>
+            <button id="menu" aria-label="Toggle Menu"></button>
+            <nav class="heading">
+                <ul>
+                    <li><a href="#" title="Home">Home</a></li>
+                    <li><a href="#" title="Chamber">Chamber</a></li>
+                    <li><a href = "#" title="Final">Final</a></li>
+                    <li><a href="www.linkedin.com/in/analautoledoz" title="Linkedln">LinkedIn</a></li>
+                    <li><a href="https://github.com/altoledo27" title = "Github"> GitHub Profile</a></li>
+                    
+                </ul>
+            </nav>
+        </div> 
+    </header>
+    <main>
+        <div class="main-div">
+        <h1>Home</h1>
+        </div>
+        <div class="cards">
+        <section class="card2">
+            <h2>Course Work</h2>
+            <ul class="resources-list">
+                <li><a> </a></li>
+                <li><a></a></li>
+                <li><a></a></li>
+            </ul>
+        </section>
+        <section class="card">
+            <h2>CDMX, Mexico</h2>
+            <div class="location">
+                <picture>
+                    <source srcset="images/mex-large.webp" media = "min-width: 1000px"> 
+                    <source srcset="images/mex-medium.webp" media = "min-width: 600px"> 
+                    <img src="images/mex.webp" alt="CDMX at night">
+                    <figcaption>El Ángel - Monument to Independence</figcaption>
+                 </picture> 
+            </div>
+            
+        </section>
+        <section class="course-resourses">
+            <h2>Web and Computer Programming Certificate</h2>
+            <div class="courses">
+                <ul class="filter-btn">
+                    <li class="card-course"><a title="All" id="allCourses">All courses</a></li>
+                    <li class="card-course"><a title="WDD" id="wddCourses">WDD Courses</a></li>
+                    <li class="card-course"><a  title="CSE" id="cseCourses">CSE Courses</a></li>
+                </ul>
+                <p>The total number of course listed below is: <span id="creditTotal">0</span></p>
+                <ul id="course-list"></ul>
+            </div>
+        </section>
+    </div>
+    </main>
+    <footer>
+        <p><span id="currentyear"></span></p>
+        <p class="second-footer"><span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>
