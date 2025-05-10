@@ -143,7 +143,7 @@ main{
     font-size: medium;
     text-align: justify;
 }
-picture{
+figcaption{
     text-align: center;
     font-size: small;
     font-style: italic;
@@ -168,6 +168,7 @@ picture{
     font-family: "Stoke", serif;
 }
 .course-resourses h2 {
+    font-size: 1rem;
     background: var(--navigation-color);
     color: white;
 }
@@ -184,6 +185,7 @@ picture{
 .location {
     padding: 1rem;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }

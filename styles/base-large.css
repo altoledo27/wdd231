@@ -19,7 +19,7 @@
         justify-content: center;
     }
     .name-heading img{
-    max-width: 100%;
+    max-width: 150px;
     }
 
     .name-heading span{
@@ -94,6 +94,11 @@
 
     .course-resourses{
         grid-column: 1/3;
+    }
+    .course-resourses h2 {
+        font-size: 1.5rem;
+        background: var(--navigation-color);
+        color: white;
     }
     #course-list, .filter-btn{
         list-style: none;
