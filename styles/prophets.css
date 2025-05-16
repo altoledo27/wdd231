@@ -1,0 +1,37 @@
+body{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+}
+#cards{
+    display: grid;
+    grid-gap : 0.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    background-color: #B4C9DD;
+}
+section {
+	margin: 0.5rem;
+	padding: 0.5rem;
+	background-color: #f6faff;
+	border: 1px solid rgb(0 0 0 / 10%);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+h2{
+    font-family: "Playwrite DK Loopet", cursive;
+}
+
+img {
+	width: auto;
+	box-shadow: 0 0 30px #777;
+	height: 200px;
+	border: 1px solid #111;
+}
+footer{
+    background-color: #F1B3A1;
+    font-weight: 600;
+    font-size: large;
+    height: 100px;
+}
