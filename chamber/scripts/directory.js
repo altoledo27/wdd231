@@ -21,7 +21,7 @@ hamburgerElement.addEventListener('click', () => {
 
 
 //Add JSON
-const url = "https://github.com/altoledo27/wdd231/blob/main/chamber/data/members.json";
+const url = "data/members.json";
 const cards = document.querySelector("#cards");
 //Create a async defined function to fetch data form the JSON source url
 async function getMembersData() {
