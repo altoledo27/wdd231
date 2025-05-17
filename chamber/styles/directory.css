@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --header-color: #FFFFFF;
+    --titles-color: #a12a14;
+    --var-title-color: #c73418;
+    --card-color: #e9f0fc;
+    --main-color: #113c7e;
+    --darker-color: #0b2650;
+    --button-color: #e5e542;
+}
+
+body{
+    font-family: "IBM Plex Sans", sans-serif;
+    text-align: center;
+}
+/*--HEADER CONFIGURATION-- */
+header{
+    display:grid;
+    grid-template-columns: 44px auto 44px;
+    align-items: center;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+    background-color: #FFF; 
+    padding: 1rem;
+}
+header span{
+    font-size:1.4rem;
+    margin-left: 15px;
+    text-align: left;
+}
+/*--End of header configuration--*/
+/*----NAVIGATION---- */
+
+nav{
+    background-color: var(--header-color);
+    font-weight: 600;
+    font-size: 1.2rem;
+    border-bottom: 2px solid var(--main-color) ;
+}
+#myButton:before{
+    /*CSS code for hamburger icon */
+    content: "\2630";
+}
+
+#myButton {
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: #000;
+    cursor: pointer;
+    width: 100%;
+    text-align: right;
+    padding: .25rem 2vw;
+}
+
+ul.menuLinks li a {
+    /*border: pink dashed 1px; */
+    display: block;
+    padding: .75rem 2vw;
+    color:var(--darker-color);
+    text-decoration: none;
+}
+ul.menuLinks li.current-menu-item a{
+    background-color: rgba(2, 80, 136, 0.1);
+    color: var(--var-title-color);
+}
+ul.menuLinks{
+    /*Add without animation
+    display:none; */
+    list-style-type: none;
+}
+
+/* --OPEN MENU--*/
+#myButton.open::before{
+    content: "x";
+}
+
+/* Without animation, use this
+ul.menuLinks.open{
+    display: block;
+}
+*/
+/*With animation*/
+nav{
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 0.5s ease-out;
+}
+nav ul {overflow: hidden;}
+
+nav.open{
+    grid-template-rows: 1fr;
+}
+/*--END OPEN MENU--*/
+
+/*----END NAVIGATION ----*/
+
+/*----MAIN----*/
+
+h1{
+    text-align: center;
+    font-family: "Calistoga", serif;
+    color: var(--titles-color);
+    margin: 10px 0;
+}
+
+/*---Cards Configuration---*/
+section {
+        margin: 1.5rem 2rem;
+        padding: 1.5rem;
+        height: 320px;
+        max-width: 320px;
+        border: 1px solid rgba(1, 2, 80, 0.336);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+#cards{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+#cards h2{
+        font-family: "Calistoga", serif;
+        color: var(--darker-color);
+        font-size:1.5rem;
+    }
+#cards div{
+        margin: 5px 0;
+    }
+#cards img {
+        background-color: #FFF;
+        max-width: 120px;
+        padding: 2rem;
+        box-shadow: 0 0 20px #777;
+    }
+#cards h3, #cards p{
+        margin: 10px 0px;
+    }
+#cards h3{
+        text-align: center;
+        font-size: 0.8rem;
+        color:var(--main-color)
+    }
+#cards p{
+        font-family: "IBM Plex Serif", serif;
+        font-size: 0.7rem;
+        text-align: center;
+        font-weight: 400;
+    }
+
+/*---End Cards Configuration---*/
+#joinButton{
+    text-align: center;
+    border: none;
+    font-family: "Calistoga", serif;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: var(--button-color);
+    color: var(--darker-color);
+    border-radius: 6px;
+    padding: .8rem;
+    width: 90%;
+    max-width: 200px;
+    margin: 15px 0;
+    box-shadow: 1px 1px 4px #999;
+}
+footer{
+    background: linear-gradient(#113c7e, #0b2650);
+    padding: 0.5rem;
+    color: #FFFFFF;
+    text-align: left;
+    font-size: 0.75rem;
+}
+.socialMedia img{
+    text-align: center;
+    margin: 0px 5px;
+    width: 30px;
+}
+.socialMedia, .chamberInformation, .classInformation{
+    margin: 5px 0;
+}
+.socialMedia{
+    text-align: center;
+
+}

@@ -1,0 +1,67 @@
+@media only screen and (min-width: 38rem){
+    #myButton {
+        display: none;
+    }
+
+    ul.menuLinks, ul.menuLinks.open{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    ul.menuLinks a:hover{
+        background-color: rgba(255,255,255,0.2);
+        color: orange;
+    }
+    nav{
+        grid-template-rows: 1fr;
+    }
+    /*---Cards Configuration---*/
+    section {
+        height: 400px;
+        max-width: 400px;
+    }
+    #cards{
+        display: grid;
+        grid-gap : 0.5rem;
+        grid-template-columns: repeat(auto-fit, minmax( 330px, 1fr));
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    #cards img {
+        max-width: 150px;
+    }
+    #cards h2{
+        font-size:1.5rem;
+    }
+    #cards h3{
+
+        font-size: 1rem;
+    }
+    #cards p{
+        font-size: 0.9rem;
+    }
+    #cards div{
+        margin: 12px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    /*---End Cards Configuration---*/
+    footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        text-align: justify;
+        font-size: 1rem;
+    }
+
+    .socialMedia img{
+        margin: 0px 5px;
+        width: 40px;
+    }
+    .socialMedia, .chamberInformation, .classInformation{
+        margin: 20px 0;
+    }
+}
