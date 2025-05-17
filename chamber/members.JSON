@@ -1,0 +1,68 @@
+{
+   "members":[
+    {
+        "name":"Burgermeister",
+        "tagline": "Aus so gutem Fleisch macht keiner Burger",
+        "address": "Dircksenstraße 113. Berlin, German",
+        "phone":"+49 30 67826820",
+        "url":"https://burgermeister.com",
+        "image":"images/burgermeister.webp",
+        "level":2
+    },
+    {
+        "name":"Condor Flugdienst",
+        "tagline": "Leidenschaft ist unser Kompass",
+        "address": "An d. Gehespitz 50, 63263 Neu-Isenburg, Germany",
+        "phone":"+49 18 06767767",
+        "url":"https://www.condor.com",
+        "image":"images/condor.webp",
+        "level":1
+    },
+    {
+        "name":"Traton SE",
+        "tagline": "Gemeinsam das Transportwesen verändern, für eine nachhaltige Welt",
+        "address": "Hanauer Str. 26, 80992 München, Alemania",
+        "phone":"+49 89 3609870",
+        "url":"http://www.traton.com/",
+        "image":"images/traton.webp",
+        "level":2
+    },
+    {
+        "name":"Rentschler Biopharma",
+        "tagline": "From substance to product to patient",
+        "address": "Erwin-Rentschler-Str. 21 88471 Laupheim, Germany",
+        "phone":"+49 73 927010",
+        "url":"https://www.rentschler-biopharma.com",
+        "image":"images/rentschler.webp",
+        "level":3
+    },
+    {
+        "name":"Schneider Electric",
+        "tagline": "Life is On",
+        "address": "35 rue Joseph Monier, 92500 Rueil Malmaison - France",
+        "phone":"+49 09 3916060",
+        "url":"hhttps://www.se.com/ww/en/",
+        "image":"images/schneider.webp",
+        "level":2
+    },
+    {
+        "name":"Paradise Valley Golf Course",
+        "tagline": "Real Estate Matters",
+        "address": "Kornmarkt 1A 60311 Frankfurt am Main",
+        "phone":"+49 06 960608000",
+        "url":"https://kucera.biz/",
+        "image":"images/kucera.webp",
+        "level":3
+    },
+    {
+        "name":"DXC Technology",
+        "tagline": "Thrive on Change",
+        "address": "20408 Bashan Drive, Suite 231, Ashburn, VA 20147, USA.",
+        "phone":"1-855-261-8549",
+        "url":"https://dxc.com/de/de",
+        "image":"images/dxc.webp",
+        "level":2
+    }
+    
+   ]
+}
