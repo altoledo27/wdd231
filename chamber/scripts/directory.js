@@ -21,7 +21,7 @@ hamburgerElement.addEventListener('click', () => {
 
 
 //Add JSON
-const url = "data/members.JSON";
+const url = "data/members.json";
 const cards = document.querySelector("#cards");
 //Create a async defined function to fetch data form the JSON source url
 async function getMembersData() {
