@@ -1,0 +1,31 @@
+main {
+    width: calc(100% - 20px);
+    max-width: 300px;
+    background-color: #FCF4ED;
+    border: 3px dashed black;
+    border-radius: 6px;
+    margin: 10px auto;
+    font-family: "League Spartan", sans-serif;
+}
+
+p, h1, footer, figcaption, figure {
+    width: calc(100% - 20px);
+    text-align: center;
+    padding: 10px;
+    word-wrap: normal;
+    margin: 10px auto;
+}
+
+img {
+    width: 70px;
+    height: auto;
+    margin: 10px auto;
+}
+
+h1, footer{
+    font-family: "Pacifico", cursive;
+    color:#eb6e4b;
+}
+#current-temp{
+    color:#eb6e4b;
+}
