@@ -6,8 +6,9 @@
         "address": "Dircksenstraße 113. Berlin, German",
         "phone":"+49 30 67826820",
         "url":"https://burgermeister.com",
-        "image":"images/burgermeister.webp",
-        "level":2
+        "image":"images/condor.webp",
+        "level":2,
+        "membership" : "Silver"
     },
     {
         "name":"Condor Flugdienst",
@@ -16,7 +17,8 @@
         "phone":"+49 18 06767767",
         "url":"https://www.condor.com",
         "image":"images/condor.webp",
-        "level":1
+        "level":1,
+        "membership" : "Bronze"
     },
     {
         "name":"Traton SE",
@@ -25,7 +27,8 @@
         "phone":"+49 89 3609870",
         "url":"http://www.traton.com/",
         "image":"images/traton.webp",
-        "level":2
+        "level":2,
+        "membership" : "Silver"
     },
     {
         "name":"Rentschler Biopharma",
@@ -34,7 +37,8 @@
         "phone":"+49 73 927010",
         "url":"https://www.rentschler-biopharma.com",
         "image":"images/rentschler.webp",
-        "level":3
+        "level":3,
+        "membership" : "Gold"
     },
     {
         "name":"Schneider Electric",
@@ -43,7 +47,8 @@
         "phone":"+49 09 3916060",
         "url":"hhttps://www.se.com/ww/en/",
         "image":"images/schneider.webp",
-        "level":2
+        "level":2,
+        "membership" : "Silver"
     },
     {
         "name":"Paradise Valley Golf Course",
@@ -52,7 +57,8 @@
         "phone":"+49 06 960608000",
         "url":"https://kucera.biz/",
         "image":"images/kucera.webp",
-        "level":3
+        "level":3,
+        "membership" : "Gold"
     },
     {
         "name":"DXC Technology",
@@ -61,7 +67,8 @@
         "phone":"1-855-261-8549",
         "url":"https://dxc.com/de/de",
         "image":"images/dxc.webp",
-        "level":2
+        "level":1,
+        "membership" : "Bronze"
     }
     
    ]

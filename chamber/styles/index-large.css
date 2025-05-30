@@ -1,0 +1,232 @@
+@media only screen and (min-width: 38rem){
+    /*---Menu configuration --*/
+    #myButton {
+        display: none;
+    }
+
+    ul.menuLinks, ul.menuLinks.open{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    ul.menuLinks a:hover{
+        background-color: rgba(255,255,255,0.2);
+        color: orange;
+    }
+    nav{
+        grid-template-rows: 1fr;
+    }
+    /*---End of Menu Configuration --*/
+    /*---MAIN --*/
+    /*---Hero image --*/
+    .hero{
+        position: relative;
+    }
+    .hero-text{
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); 
+    }
+    .hero-text span{
+        font-size: 2rem;
+        color:#FFF;
+        text-shadow: 4px 6px var(--darker-color);
+    }
+    #registerNow{
+        text-align: center;
+        border: none;
+        font-family: "IBM Plex Sans", sans-serif;
+        font-size: 1rem;
+        font-weight: 700;
+        background-color: var(--button-color);
+        color: var(--darker-color);
+        border-radius: 6px;
+        padding: .8rem;
+        width: 90%;
+        max-width: 130px;
+        margin-top:60px;
+        box-shadow: 1px 1px 4px #FFF;
+    } 
+
+    /*---End Hero image --*/
+    /*---MAIN---*/
+    .main-container{
+        margin: 0 auto;
+        max-width: 85%;
+    }
+    /*---Weather container---*/
+    .information-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 10px 0 20px 0;
+        grid-gap: 10px;
+        width:100%;
+    }
+    
+     #events{
+        grid-column: span 2;
+        height: 280px;
+    }
+    #current-weather, #weather-forecast {
+        height: 270px;
+    }
+
+    /*-Current Weather-*/
+    .just-weather{
+        display: flex;
+        padding: 1rem;
+    }
+  
+    .just-weather img{
+        width: 95px;
+        height: 95px;
+    }
+    .weather-forecast{
+        padding: 2rem;
+    }
+    .weather-forecast p{
+        margin: 5px 0;
+    }
+    /*-End Current Weather-*/
+    /*---End weather container---*/
+
+    /*---Cards Configuration---*/
+   #cards section {
+        height: 350px;
+        max-width: 350px;
+        margin: 5px 5px;
+    }
+    #cards{
+        display: flex;
+        flex-direction: row;
+
+    }
+    #cards img {
+        max-width: 70px;
+    }
+    #cards h2{
+        font-size:1rem;
+    }
+    #cards p{
+        font-size: 0.8rem;
+    }
+    #cards div{
+        margin: 12px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    /*---End Cards Configuration---*/
+
+    /*---End Main --*/
+    /*---Footer configuration --*/
+    footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        text-align: justify;
+        font-size: 1rem;
+    }
+
+    .socialMedia img{
+        margin: 0px 5px;
+        width: 40px;
+    }
+    .socialMedia, .chamberInformation, .classInformation{
+        margin: 20px 0;
+    }
+}
+
+
+@media (min-width: 790px) {
+      .just-weather p{
+        font-size: small;
+    }
+    .hero-text span{
+        font-size: 3.5rem;
+    }
+
+     /*---Cards Configuration---*/
+    #cards section {
+        height: 350px;
+        max-width: 350px;
+        margin: 5px 5px;
+    }
+    #cards img {
+        max-width: 100px;
+    }
+    #cards h2{
+        font-size:1.2rem;
+    }
+
+    #cards p{
+        font-size: 1rem;
+    }
+    #cards div{
+        margin: 12px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    /*---End Cards Configuration---*/
+
+}
+
+@media (min-width: 1000px) {
+    
+    #registerNow{
+
+    height: 50px;
+    } 
+
+
+    .information-container {
+        display: grid;
+        grid-template-columns: 2fr 1.3fr 1.1fr;
+        grid-gap: 10px;    
+    }
+
+    #events, #current-weather, #weather-forecast {
+       height: 210px;
+       grid-column: span 1;
+    }
+     .just-weather p{
+        font-size: small;
+    }
+
+     /*---Cards Configuration---*/
+    #cards section {
+        height: 450px;
+        width: 100%;
+        margin: 10px 5px;
+        margin-bottom: 20px;
+    }
+    #cards img {
+        max-width: 150px;
+    }
+    #cards h2{
+        font-size:1.5rem;
+    }
+
+    #cards p{
+        font-size: 1rem;
+    }
+    #cards div{
+        margin: 20px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    /*---End Cards Configuration---*/
+
+}
+
+@media (min-width: 1200px) {
+    .just-weather p{
+        font-size: medium;
+    }
+}

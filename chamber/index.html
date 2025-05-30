@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name= "description" content= "American Chamber of Commerce in Germany Home. The Voice of Transatlantic.">
+    <meta name="author" content="Ana Laura Toledo">
+    <meta property="og:title" content="AmCham">
+    <meta property="og:description" content="American Chamber of Commerce in Germany Home. The Voice of Transatlantic.">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:image" content="https://altoledo27.github.io/wdd231/chamber/images/amcham-logo.webp" />
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Amcham Germany"> 
+    <meta property="og:url" content="https://altoledo27.github.io/wdd231/chamber/index.html">
+    <title>Home | AmCham Germany</title>
+    <link href="styles/index.css" rel="stylesheet">
+    <link href="styles/index-large.css" rel="stylesheet">
+    <link href="styles/normalize.css" rel="stylesheet">
+    <script src="scripts/index.js" defer></script> 
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Calistoga&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="images/amcham-logo.webp"  alt="AmCham logo" width="40">
+        <span> AmCham Germany</span>
+        <button id="myButton"></button>
+    </header>
+    <nav id="animateme">
+            <ul class="menuLinks">
+                <li class="current-menu-item"><a href="#" title="Home">HOME</a></li>
+                <li><a href="#">DISCOVER</a></li>
+                <li><a href="directory.html" title="Service">DIRECTORY</a></li>
+                <li><a href="#" title="History">JOIN</a></li>
+            </ul>
+        </nav>
+
+    
+    <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/hero-large.webp" media = "(min-width: 1024px)"> 
+                <source srcset="images/hero-medium.webp" media = "(min-width: 600px)"> 
+                <img src="images/hero.webp" alt="Flag of Germany">
+            </picture>
+            <div class="hero-text">
+                <span class="word1">The Voice of Transatlantic Business</span>
+                <br>
+                <button id="registerNow">JOIN US</button>
+            </div>
+               
+        </div> 
+        <div class="main-container">
+            <h1>Home</h1>
+            <div class="information-container">
+                <section id="events">
+                    <h2>Events</h2>
+                    <div class="events-text">
+                        <p><a href="https://www.amcham.de/events/female-founders-award" aria-label="Female Founders Award 2025">Female Founders Award 2025 </a></p>
+                        <p><a href="https://www.amcham.de/events/annual-membership-meeting" aria-label="Anual Membership Meeting">Anual Membership Meeting </a></p>
+                        <p><a href="hhttps://www.amcham.de/events/transatlantic-business-conference" aria-label="Transatlantic Business Conference">Transatlantic Business Conference</a></p>
+                    </div>
+                </section>
+                <section id="current-weather">
+                    <h2>Current Weather</h2>
+                    <div class="just-weather">
+                        <img id="weather-icon" src="icon" alt="description">
+                        <div id="current-weather-text">
+                            <p><span id="current-temp"></span></p>
+                            <p id="current-weather-conditions"></p>
+                            <p><strong>High: </strong> <span id="high-temp"></span>&deg;</p>
+                            <p><strong>Low: </strong> <span id="low-temp"></span>&deg;</p>
+                            <p><strong>Humidity: </strong><span id="humidity"></span>%</p>
+                            <p><strong>Sunrise: </strong> <span id="sunrise-time"></span></p>
+                            <p><strong>Sunset: </strong> <span id="sunset-time"></span></p>
+                        </div>
+                    </div>
+                </section>
+                <section id="weather-forecast">
+                    <h2>Weather Forecast</h2>
+                    <div class="weather-forecast">
+                        <p><strong>Today: </strong> <span id="day0temp"></span></p>
+                        <p><span id="day1-day-of-week"></span>: <span id="day1temp"></span>&deg; F</p>
+                        <p><span id="day2-day-of-week"></span>: <span id="day2temp"></span>&deg; F</p>
+                    </div>
+            </section>
+            </div>
+            <div id="cards"></div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="chamberInformation">
+            <p><strong>American Chamber of Commerce in Germany</strong></p>
+            <p>Börsenplatz 13-15 60313 Frankfurt am Main</p>
+            <p>+49 69 929104-0</p>
+        </div>
+        <div class="socialMedia">
+            <img src="images/instagram.png" alt="Logo of instagram">
+            <img src="images/tiktok.png" alt="Logo of tiktok">
+            <img src="images/twitter.png" alt="Logo of twitter">
+            <img src="images/facebook.png" alt="Logo of facebook">
+        </div>
+        <div class="classInformation">
+            <p><strong>WDD231 Class Project</strong></p>
+            <p>Ana Laura Toledo</p>
+            <p><span id="currentyear"></span></p>
+            <p class="second-footer"><span id="lastModified"></span></p>
+        </div>
+        
+    </footer>
+
+</body>
+</html>
