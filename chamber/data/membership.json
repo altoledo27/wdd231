@@ -1,0 +1,59 @@
+{
+   "membership":[
+    {
+        "name":"NP (Non- Profit Membership) 🫶",
+        "tagline": "For qualified non-profit organizations. No fee.",
+        "level": 0,
+        "benefits": [
+        "👉 Inclusion in the Chamber's online directory (Non-Profit section)",
+        "👉 Access to member-only events (up to 3 per year)",
+        "👉 Eligibility to post volunteer opportunities on the Chamber site",
+        "👉 Discounts on event tickets and workshops (non-member rate minus 10%)",
+        "👉 Subscription to Chamber e-newsletter"
+      ]
+    },
+    {
+        "name":"Bronze Membership 🥉",
+        "tagline": "Entry-level membership for individuals and small businesses.",
+        "level": 1,
+        "benefits": [
+        "👉 All NP benefits",
+        "👉 Full business listing with logo and contact info on Chamber website",
+        "👉 Access to all Chamber networking events",
+        "👉 Social media shoutout for new member welcome",
+        "👉 Member window decal",
+        "👉 Access to member-to-member discounts",
+        "👉 One event sponsorship opportunity per year (at discounted rate)"
+      ]
+    },
+    {
+        "name":"Silver Membership 🥈",
+        "tagline": "For growing businesses wanting more visibility and influence.",
+        "level": 2,
+        "benefits": [
+        "👉 All Bronze benefits",
+        "👉 Priority listing in online directory",
+        "👉 One business spotlight in Chamber newsletter per year",
+        "👉 One free admission to a premium event",
+        "👉 Opportunity to serve on a Chamber committee",
+        "👉 Business referrals through Chamber office",
+        "👉 Ribbon cutting or grand opening ceremony promotion"
+      ]
+    },
+    {
+        "name":"Gold Membership 🥇",
+        "tagline": "For established businesses seeking maximum exposure and leadership.",
+        "level": 3,
+        "benefits": [
+        "👉 All Silver benefits",
+        "👉 Logo placement in Chamber e-newsletter and selected print materials",
+        "👉 Featured banner on Chamber website homepage (1 week/year)",
+        "👉 Two business spotlights per year",
+        "👉 Priority sponsorship opportunities for Chamber events",
+        "👉 Invitation to exclusive leadership roundtable events",
+        "👉 Recognition at Annual Chamber Gala",
+        "👉 Custom consulting session with Chamber business advisor"
+      ]
+    }
+   ]
+}

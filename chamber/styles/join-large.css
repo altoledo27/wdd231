@@ -1,0 +1,60 @@
+@media only screen and (min-width: 650px){
+    /*---Menu configuration --*/
+    #myButton {
+        display: none;
+    }
+
+    ul.menuLinks, ul.menuLinks.open{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    ul.menuLinks a:hover{
+        background-color: rgba(255,255,255,0.2);
+        color: orange;
+    }
+    nav{
+        grid-template-rows: 1fr;
+    }
+    /*---End of Menu Configuration --*/
+    /*---Footer configuration --*/
+    footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        text-align: justify;
+        font-size: 1rem;
+    }
+
+    .socialMedia img{
+        margin: 0px 5px;
+        width: 40px;
+    }
+    .socialMedia, .chamberInformation, .classInformation{
+        margin: 20px 0;
+    }
+
+    /* Main */
+    .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        width: 85%;
+        margin: 0 auto;
+    }
+    label {
+      font-size: 1rem;
+      text-transform: uppercase;
+      font-weight: 600;
+      color: var(--darker-color);
+      padding-top: .2rem;
+    }
+
+    .membership-card img{
+        max-width: 90px;
+        margin: 1rem 2%;
+    }
+
+
+}
