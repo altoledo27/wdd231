@@ -104,7 +104,7 @@ h1{
     margin: 20px 0;
 }
 /*---Form configuration---*/
-.membership-form h2, #membership-info h2{
+.membership-form h1, #membership-info h2{
     text-align: center;
     font-family: "Calistoga", serif;
     color: var(--var-title-color);
