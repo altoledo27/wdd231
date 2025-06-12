@@ -119,10 +119,6 @@
         flex-direction: column;
         align-items: center;
     }
-    /*---End Cards Configuration---*/
-
-    /*---End Main --*/
-    /*---Footer configuration --*/
     footer{
         display: flex;
         justify-content: space-between;
@@ -131,7 +127,6 @@
         text-align: justify;
         font-size: 1rem;
     }
-
     .socialMedia img{
         margin: 0px 5px;
         width: 40px;
@@ -140,8 +135,6 @@
         margin: 20px 0;
     }
 }
-
-
 @media (min-width: 790px) {
       .just-weather p{
         font-size: small;
@@ -149,7 +142,6 @@
     .hero-text span{
         font-size: 3.5rem;
     }
-
      /*---Cards Configuration---*/
     #cards section {
         height: 350px;
