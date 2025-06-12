@@ -116,7 +116,7 @@ h1{
 }
 /*---Cards Configuration---*/
 section {
-        margin: 1.5rem 2rem;
+        margin: 1.5rem auto;
         padding: 1.5rem;
         height: 320px;
         max-width: 320px;

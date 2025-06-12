@@ -69,6 +69,7 @@ const displayLogoCards = (members) => {
         portrait.setAttribute("alt", `Logo of ${member.name}`);
         portrait.setAttribute("loading", "lazy");
         portrait.setAttribute("width", "340");
+        portrait.setAttribute("height", "auto");
 
         card.appendChild(nameCompany);
         card.appendChild(divisor);
