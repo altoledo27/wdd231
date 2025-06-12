@@ -158,7 +158,24 @@ section {
         text-align: center;
         font-weight: 400;
     }
+/*List view*/
+.member-list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.member-list li {
+  border-bottom: 1px solid #ccc;
+  padding: 1rem 0;
+}
 
+.member-list li h3 {
+  margin: 0 0 0.25rem;
+}
+
+.member-list li p {
+  margin: 0.25rem 0;
+}
 /*---End Cards Configuration---*/
 #joinButton{
     text-align: center;
@@ -174,6 +191,7 @@ section {
     max-width: 200px;
     margin: 15px 0;
     box-shadow: 1px 1px 4px #999;
+    cursor: pointer;
 }
 footer{
     background: linear-gradient(#113c7e, #0b2650);
