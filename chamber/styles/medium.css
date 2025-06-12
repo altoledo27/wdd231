@@ -1,0 +1,60 @@
+@media only screen and (min-width: 38rem){
+    /*---Menu configuration --*/
+    #myButton {
+        display: none;
+    }
+
+    ul.menuLinks, ul.menuLinks.open{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    ul.menuLinks a:hover{
+        background-color: rgba(255,255,255,0.2);
+        color: orange;
+    }
+    nav{
+        grid-template-rows: 1fr;
+    }
+    /*---End of Menu Configuration --*/
+
+    /*Cards configuration*/
+        #discover-content {
+        grid-template-columns: 1fr;
+    }
+        #discover-main {
+        height: auto;
+    }
+
+    .discover-card{
+        grid-template-areas: 
+        "photo name"
+        "photo description"
+        "photo location"
+        ".button";
+    }
+    .discover-card figure img{
+        width: 300px;
+        height: 200px;
+        margin: 0;
+    }
+    /*---Footer configuration --*/
+    footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        text-align: justify;
+        font-size: 1rem;
+    }
+
+    .socialMedia img{
+        margin: 0px 5px;
+        width: 40px;
+        height: auto;
+        object-fit: contain;
+    }
+    .socialMedia, .chamberInformation, .classInformation{
+        margin: 20px 0;
+    }
+}

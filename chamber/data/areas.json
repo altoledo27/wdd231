@@ -1,0 +1,60 @@
+{
+    "areas":[
+    {
+        "name":"City Hall Römer",
+        "imageUrl": "images/romer.webp",
+        "address": "Römerberg 23, 60311 Frankfurt am Main, Germany",
+        "description": "This former patrician villa with its three-gabled roof has served as Frankfurt's city hall since 1405. It continues to be the seat of the city's Lord Mayor to this day.",
+        "learnMoreUrl": "https://www.visitfrankfurt.travel/en/poi/city-hall-roemer"
+    },
+    {
+        "name":"St bartholomew Cathedral",
+        "imageUrl": "images/bartholomew.webp",
+        "address": "Domplatz 1, 60311 Frankfurt am Main, Germany",
+        "description": "Some people also call it 'Frankfurt's first skyscraper', as the almost 95-metre-high tower of the imperial cathedral was already rising into the sky in the 15th century.",
+        "learnMoreUrl": "https://www.visitfrankfurt.travel/en/poi/st-bartholomew-cathedral"
+    },
+    {
+        "name":"St Pauls Church",
+        "imageUrl": "images/pauls.webp",
+        "address": "Paulsplatz 11, 60313 Frankfurt am Main, Germany",
+        "description": "From a place of worship to a monument to democracy: this is where elected representatives drew up the first German constitution from 1848 onwards.",
+        "learnMoreUrl": "https://www.visitfrankfurt.travel/en/poi/st-pauls-church"
+    },
+    {
+        "name":"Zoo Frankfurt",
+        "imageUrl": "images/zooo.webp",
+        "address": "Bernhard-Grzimek-Allee 1, 60316 Frankfurt am Main, Germany",
+        "description": "Giraffes in front of the skyline, a jungle atmosphere and the largest nocturnal animal house in Europe: 5,400 animals live in Germany's second oldest zoo in Ostend.",
+        "learnMoreUrl": "https://www.visitfrankfurt.travel/en/poi/zoo-frankfurt"
+    },
+    {
+        "name":"Palmengarten Frankfurt",
+        "imageUrl": "images/palmengarten.webp",
+        "address": "Siesmayerstraße 63, 60323 Frankfurt am Main, Germany",
+        "description": "For more than 150 years, the Palmengarten has been enchanting visitors with its glass greenhouses and countless native and exotic plants.",
+        "learnMoreUrl": "https://www.visitfrankfurt.travel/en/poi/palmengarten-frankfurt"
+    },
+    {
+        "name":"Skyline viewpoint Deutschherrnbrücke",
+        "imageUrl": "images/skyline.webp",
+        "address": "Deutschherrnbrücke, 60314 Frankfurt am Main, Germany",
+        "description": "This railway bridge spans 125 metres over the Main- and offers pedestrians a dream panorama of the skyline.",
+        "learnMoreUrl": "https://www.visitfrankfurt.travel/en/poi/skyline-viewpoint-deutschherrnbruecke"
+    },
+    {
+        "name":"Höchst with castle and old town",
+        "imageUrl": "images/hochst.webp",
+        "address": "Batterie, 65929 Frankfurt am Main, Germany",
+        "description": "Long a city in its own right, today a neighbourhood with many contrasts: Höchst fascinates with a mix of half-timbered facades, castle, Main promenade - and 'Social Meeting Culture'.",
+        "learnMoreUrl": "https://www.visitfrankfurt.travel/en/poi/hoechst-with-castle-and-old-town"
+    },
+    {
+        "name":"Alte Oper",
+        "imageUrl": "images/alter-oper.webp",
+        "address": "Opernpl. 1, 60313 Frankfurt am Main, Germany",
+        "description": "After suffering severe damage during World War II, the renovated Alte Oper (Old Opera House) stands as a stunning masterpiece, hosting Broadway-style musicals, jazz ensembles, symphonies, and operas.",
+        "learnMoreUrl": "https://www.visitfrankfurt.travel/en/poi/museum-embankment"
+    }
+    ]
+}
