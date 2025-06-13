@@ -1,0 +1,134 @@
+:root {
+  --header: rgba(43, 43, 43, 0.521);
+  --purple: #9146ff;
+  --color-background: #0f0f23;
+  --blue-color: #00ffff;
+  --other-color: #EF6351;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: linear-gradient(135deg, #0f0f23 0%, #1a1a3a 100%);
+  color: black;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background-color: var(--header);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  
+}
+
+h1,h3 {
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 1px;
+}
+
+section {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  border-top: 4px solid var(--purple);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.color-schema{
+    background-color: var(--color-background);
+    color: White;
+    border: 1px solid 
+}
+.color-schema h2{
+    background: linear-gradient(45deg, #9146ff, #00ffff, #9146ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+figure{
+  text-align: center;
+}
+figure figcaption{
+  font-style: italic;
+}
+h2 {
+    font-family: "Dela Gothic One", sans-serif;
+    color: var(--purple);
+    font-size: 1.7rem;
+    border-bottom: 2px solid var(--purple);
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+h3{
+  font-size: 1.4rem;
+  color: var(--prussian-blue);
+}
+
+p {
+  color: var(--charcoal);
+  font-size: 1rem;
+}
+
+.monserrat{
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.3rem;
+  color:white;
+  
+}
+.anton{
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 1.3rem;
+  color:white;
+}
+.dela{
+  font-family: "Dela Gothic One", sans-serif;
+  font-size: 1.3rem;
+  color:white;
+}
+
+.cta-link {
+    padding: 3px 4px;
+    text-align: center;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 200px;
+    text-decoration: none;
+    display: block;
+    background: linear-gradient(135deg, #9146ff30, #00ffff30);
+    color: #ffffff;
+    border: 2px solid #9146ff;
+    backdrop-filter: blur(10px);
+}
+
+.cta-link:hover {
+    background: linear-gradient(135deg, #9146ff, #00ffff);
+    color: #fff;
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+}
+
+
+@media (max-width: 600px) {
+  section {
+    margin: 20px 15px;
+    padding: 15px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+}
+ 
