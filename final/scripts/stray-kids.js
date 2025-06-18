@@ -28,9 +28,15 @@ fetch(`https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&maxR
 const url = "data/skz.json";
 const cards = document.querySelector("#member-cards");
 async function getMembersData() {
+  try{
     const response = await fetch(url);
     const data = await response.json();
     displayLogoCards(data.members);
+
+  }catch(error){
+    console.error("Error fetching data:", error);
+  }
+    
 }
 
 const displayLogoCards = (members) => {
