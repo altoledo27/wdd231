@@ -15,11 +15,11 @@ h2{
     color: var(--purple-text);
 
 }
-.initial-text h4{
+.initial-text h3{
     font-size: 1.5rem;
     margin-top: 20px;
 }
-.initial-text h3{
+.initial-text h4{
     font-family: var(--band-title);
     letter-spacing: 1px;
     color: var(--purple-text);
