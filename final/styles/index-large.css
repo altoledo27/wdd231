@@ -1,0 +1,144 @@
+@media only screen and (min-width: 700px) {
+    .up-container h1 { font-size: 5.5vw; }
+    .groups-container { gap: 20px; }
+    .group-card { min-width: 150px; padding: 20px 30px; font-size: 1.2rem; }
+    .toggle-container { top: 10px; right: 10px; }
+    .toggle-btn { padding: 10px 20px; font-size: 14px; }
+    .up-container .subtitle{font-size: 1.8vw;}
+
+    /*Main*/
+    p{
+        font-size: 1.2rem;
+    }
+
+    h2{
+        font-size: 2.5rem;
+    }
+    .main-container{
+        width: 100%; 
+        max-width: 85%;
+    }
+    .content-elements{
+        margin: 40px auto;
+        overflow: hidden;
+        display: grid;
+        grid-template-areas: 
+        "photo title"
+        "photo description";
+        gap: 0px;
+    }
+    .content-elements p{
+        font-size: 0.8rem;
+        margin: 0;
+        padding: 0;
+    }
+    .kpop-img img{
+        width: 85%;
+        height: auto;
+    }
+    .band-card h3{
+        font-size: 1rem;
+        padding: 0.75rem;
+    }
+    .dialog{
+        min-width: 400px;
+        min-height: 210px;
+        width: 40%;
+        height:20%;
+    }
+    #show-bands {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1.5rem;
+        margin-top: 10px;
+    }
+
+    .band-card img {
+        width: 100%;
+        height: auto;
+    }
+    #shuffle-button{
+        margin: 30px auto;
+        text-align: center;
+        display: block;
+        font-size: 1rem;
+        font-family: var(--normal-text);
+    }
+    .join-us{
+        margin: 10px auto;
+        overflow: hidden;
+        display: grid;
+        max-height: 500px;
+        grid-template-columns: 1fr 1.2fr;
+        background: var(--background-page);
+        min-height: 500px;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    .invitation-join {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+    .content-text{
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .invitation-join picture, .kpop-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .invitation-join img {
+        width: 100%;
+        max-width: 800px; 
+        height: auto;
+        border-radius: 50%;
+    }
+
+    .membership-form{
+        margin: 0;
+    }
+    form{
+        background: var(--background-page);
+        color: var(--main-text)
+    }
+    form h3{
+        font-size: 3rem;
+    }
+    form h4{
+        letter-spacing: 1px;
+        font-size: 1.2rem;
+        color: var(--main-text);
+        
+    }
+    form p {
+    font-size: 1rem;
+    }
+    
+
+}
+
+@media only screen and (min-width: 1000px){
+    .content-elements p{
+        font-size: 1.2rem;
+    }
+
+    .invitation-join img {
+        width: 65%;
+        max-width: 800px; 
+        height: auto;
+        border-radius: 50%;
+    }
+
+    form input[type=text],
+    form input[type=email]{
+        max-width: 90%;
+    }
+
+}

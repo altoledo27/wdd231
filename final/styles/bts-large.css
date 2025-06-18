@@ -1,0 +1,91 @@
+@media only screen and (min-width: 700px) {
+    .initial-text{
+        margin-top: -10px;
+        margin-bottom: 40px;
+    }
+    .initial-text p{
+        font-size: 1.2rem;
+        margin: 15px auto;
+    }
+    .initial-text h3{
+        font-size: 2rem;
+    }
+    /*Cards section*/
+    #member-cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 1.5rem;
+        margin-top: 10px;
+        margin-bottom: 40px;
+    }
+    .band-card {
+       width: 100%;
+    }
+    .band-card img {
+        width: 100%;
+        height: auto;
+    }
+    .band-card h3{
+        font-size: 1rem;
+        padding: 0.75rem;
+    }
+    .band-card p{
+        font-size: .8rem;
+    }
+    h2{
+        font-family: var(--main-title);
+        letter-spacing: 1px;
+        text-align: center;
+        font-size: 2.5rem;
+        margin: 20px;
+    }
+
+    /*Songs display*/
+
+    .song-button{
+        max-width: 150px;
+        width: 100%;
+    }
+    .songs-box{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 5px;
+    }
+
+    .song-card{
+        grid-template-areas: 
+        "photo title"
+        "photo description";
+        max-width: 500px;
+        width: 100%;
+        text-align: left;
+        border-radius: 10px;
+    }
+    .song-name{
+        width: 100%;
+        max-width: 250px;
+    }
+    .song-text{
+        width: 100%;
+        max-width: 250px;
+        text-align: left;
+    }
+    .song-text p{
+        text-align: left;
+    }
+    .song-img{
+        margin: auto;
+    }
+
+}
+
+@media only screen and (min-width: 1020px){
+    .band-card h3{
+        font-size: 1rem;
+        padding: 0.75rem;
+    }
+    .band-card p{
+        font-size: 1rem;
+    }
+    
+}

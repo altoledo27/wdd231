@@ -1,0 +1,68 @@
+{
+     "members":[{
+            "name": "Bang Chan 방찬",
+            "birth": "1997.10.03",
+            "position": "Leader, producer, vocalist, rapper, dancer.",
+            "imgUrl": "images/bang-chang.webp",
+            "imgUrlMedium": "images/bang-chang-medium.webp",
+            "imgUrlLarge": "images/bang-chang-large.webp"
+        },
+        {
+            "name": "Lee Know 리노",
+            "birth": "1998.10.25",
+            "position": "Main dancer, vocalist, rapper.",
+            "imgUrl": "images/lee-know.webp",
+            "imgUrlMedium": "images/lee-know-medium.webp",
+            "imgUrlLarge": "images/lee-know-large.webp"
+        },
+        {
+            "name": "Hyunjin 현진",
+            "birth": "1999.08.11",
+            "position": "Main dancer, rapper.",
+            "imgUrl": "images/hyunjin.webp",
+            "imgUrlMedium": "images/hyunjin-medium.webp",
+            "imgUrlLarge": "images/hyunjin-large.webp"
+        },
+        {
+            "name": "Changbin 창빈",
+            "birth": "2000.03.20",
+            "position": "Main rapper, producer.",
+            "imgUrl": "images/changbin.webp",
+            "imgUrlMedium": "images/changbin-medium.webp",
+            "imgUrlLarge": "images/changbin-large.webp"
+        },
+        {
+            "name": "Han 한",
+            "birth": "2000.09.14",
+            "position": "Main rapper, vocalist, producer",
+            "imgUrl": "images/han.webp",
+            "imgUrlMedium": "images/han-medium.webp",
+            "imgUrlLarge": "images/han-large.webp"
+        },
+        {
+            "name": "Felix 필릭스",
+            "birth": "2000.09.15",
+            "position": "Lead dancer, rapper.",
+            "imgUrl": "images/felix.webp",
+            "imgUrlMedium": "images/felix-medium.webp",
+            "imgUrlLarge": "images/felix-large.webp"
+        },
+        {
+            "name": "Seungmin 승민",
+            "birth": "2000.09.22",
+            "position": "Main vocalist.",
+            "imgUrl": "images/seungmin.webp",
+            "imgUrlMedium": "images/seungmin-medium.webp",
+            "imgUrlLarge": "images/seungmin-large.webp"
+        },
+        {
+            "name": "I.N 아이엔",
+            "birth": "2001.09.22",
+            "position": "Lead vocalist.",
+            "imgUrl": "images/in.webp",
+            "imgUrlMedium": "images/in-medium.webp",
+            "imgUrlLarge": "images/in-large.webp"
+        }
+     ]
+    
+}

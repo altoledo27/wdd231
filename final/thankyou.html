@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You for Suscribe!</title>
+    <link rel="stylesheet" href="styles/dark-mode.css" id="theme">
+    <link rel="stylesheet" href="styles/thankyou.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dela+Gothic+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
+    <script src="scripts/switch-theme.js" defer></script>
+    <script src="scripts/ham-button.js" defer></script>
+</head>
+<body>
+    <header>
+        <button id="hamButton"></button>
+        <div class="logo-box">
+            <img src="images/logo-real.webp"  alt="K-POP Galaxy logo" width="40" height="40">
+            <span> K-POP Galaxy</span>
+        </div>
+    </header>
+    <nav id="animateme" class="hidden">
+            <ul class="menuLinks">
+                <li class="current-menu-item"><a href="index.html" title="Home">HOME</a></li>
+                <li><a href="discover.html">BTS</a></li>
+                <li><a href="directory.html" title="Directory">STRAY KIDS</a></li>
+                <li><a href="join.html" title="Join">JOIN</a></li>
+            </ul>
+        </nav>
+    <div class="toggle-container">
+        <button class="toggle-btn" id="themeswitch">🌙</button>
+    </div>
+    <main>
+        <h1 class="result">Thank You!</h1>
+       <div id="results"></div>
+
+    </main>
+    <script src="scripts/thanks.js"></script>
+    <footer>
+        <p tabindex="0">@<span id="currentyear" tabindex="0"></span> K-POP GALAXY</p>
+        <p tabindex="0"><a href="#" tabindex="0">Atributions</a> | <a href="#" tabindex="0">Video</a></p>
+        <p id="lastModified" tabindex="0"></p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: var(--normal-text);
+    line-height: 1.6;
+}
+/*Switch theme*/
+.toggle-container {
+    position: fixed;
+    top: 10px;
+    right: 15px;
+    width: 40px;
+    height: 40px;
+    z-index: 100;
+}
+.toggle-btn{
+    width: 40px;
+    height: 40px;
+    background: var(--btn-color);
+    border: none;
+    border-radius: 50%;
+    display: flex;         
+    align-items: center;      
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(145, 70, 255, 0.3);
+}
+
+.toggle-btn:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(145, 70, 255, 0.4);
+}
+/*End Switch theme*/
+/*--HEADER CONFIGURATION-- */
+header{
+    display:grid;
+    align-items: center;
+    font-family: var(--main-title);
+    font-weight: 500;
+    background: var(--background-page); 
+    color: var(--main-text);
+    padding: 1rem;
+}
+.header-container{
+    display:grid;
+    grid-template-columns: 44px auto 44px;
+}
+.logo-box {
+    display: flex;
+    justify-content: center;  
+    align-items: center;       
+    gap: 0.5rem;
+    align-self: center;
+}
+.logo-box span{
+    font-size:1.4rem;
+    text-align: center;
+}
+/*--End of header configuration--*/
+/*----NAVIGATION---- */
+nav{
+    font-family: var(--normal-text);
+    background: var(--background-page);
+    font-weight: 600;
+    font-size: 1.2rem;
+    border-bottom: 2px solid var(--main-color);
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 0.5s ease-out;
+}
+#hamButton::before{
+    /*CSS code for hamburger icon */
+    content: "\2630";
+}
+#hamButton {
+    font-size: 1.7rem;
+    background: none;
+    border: none;
+    color: var(--main-text);
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    align-self: center;
+}
+ul.menuLinks li a {
+    display: block;
+    padding: .75rem 2vw;
+    color:var(--main-text);
+    text-decoration: none;
+    text-align: center;
+}
+ul.menuLinks li.current-menu-item a{
+    background: var(--galaxy-title);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+ul.menuLinks{
+    list-style-type: none;
+}
+/* --OPEN MENU--*/
+#hamButton.active::before{
+    content: "X";
+}
+nav ul {
+    overflow: hidden;
+}
+nav.active{
+    grid-template-rows: 1fr;
+}
+/*--END OPEN MENU--*/
+.main-container{
+    max-width: 85%;
+    margin: 5px auto;
+    display: block;
+    text-align: center;
+}
+/*Footer*/
+footer {
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    background: var(--background-page);
+    color: var(--main-text);
+}
+
+footer p {
+    width: 310px;
+    padding: 5px;
+    margin: auto;
+    font-size: 14px;
+}
+
+footer a {
+    color: var(--main-text);
+    text-decoration: none;
+}
+
+footer a:hover {
+    background: var(--galaxy-title);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-decoration: var(--border-card) wavy underline;
+}
+/* End of footer*/
+
+@media only screen and (min-width: 700px) {
+    .toggle-container { top: 90px; right: 10px; }
+    .toggle-btn { padding: 10px 20px; font-size: 14px;}
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .header-container{
+    display:block;
+    }
+
+    .logo-box {
+        display: flex;     
+        gap: 0.5rem;
+    }
+    .logo-box span{
+        font-size:2rem;
+        text-align: center;
+    }
+    /*---Menu configuration --*/
+    #hamButton {
+        display: none;
+    }
+
+    ul.menuLinks, ul.menuLinks.open{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    ul.menuLinks a:hover{
+        background: var(--btn-color);
+        color: var(--main-text);
+    }
+    nav{
+        grid-template-rows: 1fr;
+    }
+    /*---End of Menu Configuration --*/
+    .hidden{
+        display: none;
+    }
+}

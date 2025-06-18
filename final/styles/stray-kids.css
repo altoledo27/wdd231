@@ -1,0 +1,162 @@
+/*Video Section*/
+h1{
+    text-align: center;
+    font-family: var(--main-title);
+    font-size: 4rem;
+}
+.loader-box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    overflow: hidden;
+    gap: 10px; 
+    margin: 5px auto;
+}
+.loader-box img{
+    width: 400px;
+    align-self: center;
+}
+.loader-box a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    align-self: center; 
+    justify-self: center; 
+    transition: transform 0.3s ease;
+    
+}
+.loader-box h3{
+    font-size: .7rem;
+    align-self: center; 
+    justify-self: center; 
+}
+.loader-box a:hover{
+    background: var(--galaxy-title);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin: 0 auto;
+    transform: translateY(-5px);
+}
+/*Showing bands*/
+#member-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin: 10px auto;
+}
+/* Cards*/
+.band-card {
+  background: var(--background-page);
+  color: var(--main-text);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: transform 0.3s ease;
+  width: 300px;
+  justify-self:center;
+}
+
+.band-card:hover {
+  transform: translateY(-5px);
+}
+.band-card picture,
+.band-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-bottom: 2px solid var(--border-card);
+}
+.band-card h3{
+    font-family: var(--band-title);
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    margin: 0;
+}
+.band-card button{
+    margin: 10px auto;
+    font-family: var(--normal-text);
+}
+
+h2{
+    font-family: var(--main-title);
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 1.7rem;
+    margin: 20px;
+}
+.social-media{
+    display: flex;
+    margin: 40px auto;
+    width: 50%;
+    justify-content: space-around;
+}
+
+/*Larger versions*/
+@media only screen and (min-width: 700px) {
+    /*Cards section*/
+    #member-cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 1.5rem;
+        margin-top: 10px;
+    }
+
+    .band-card {
+       width: 100%;
+    }
+    .band-card img {
+        width: 100%;
+        height: auto;
+    }
+    .band-card h3{
+        font-size: 1rem;
+        padding: 0.75rem;
+    }
+    .band-card p{
+        font-size: .8rem;
+    }
+    .initial-text{
+        margin-top: -10px;
+        margin-bottom: 40px;
+    }
+    .initial-text p{
+        font-size: 1.2rem;
+        margin: 15px auto;
+    }
+    /*Video section*/
+    .loader-box{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        overflow: hidden;
+        gap: 10px; 
+        margin: 5px auto;
+    }
+    .loader-box h3{
+    font-size: 1rem;
+    }
+    .loader-box img{
+        max-width: 1000px;
+        width: 100%;
+    }
+    h2{
+    font-family: var(--main-title);
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 30px;
+}
+
+
+}
+
+@media only screen and (min-width: 1020px){
+    .band-card h3{
+        font-size: 1rem;
+        padding: 0.75rem;
+    }
+    .band-card p{
+        font-size: 1rem;
+    }
+    
+}

@@ -1,0 +1,67 @@
+@media only screen and (min-width: 700px) {
+    /*Cards section*/
+    #member-cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 1.5rem;
+        margin-top: 10px;
+    }
+
+    .band-card {
+       width: 100%;
+    }
+    .band-card img {
+        width: 100%;
+        height: auto;
+    }
+    .band-card h3{
+        font-size: 1rem;
+        padding: 0.75rem;
+    }
+    .band-card p{
+        font-size: .8rem;
+    }
+    .initial-text{
+        margin-top: -10px;
+        margin-bottom: 40px;
+    }
+    .initial-text p{
+        font-size: 1.2rem;
+        margin: 15px auto;
+    }
+    /*Video section*/
+    .loader-box{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        overflow: hidden;
+        gap: 10px; 
+        margin: 5px auto;
+    }
+    .loader-box h3{
+    font-size: 1rem;
+    }
+    .loader-box img{
+        max-width: 1000px;
+        width: 100%;
+    }
+    h2{
+    font-family: var(--main-title);
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 20px;
+}
+
+
+}
+
+@media only screen and (min-width: 1020px){
+    .band-card h3{
+        font-size: 1rem;
+        padding: 0.75rem;
+    }
+    .band-card p{
+        font-size: 1rem;
+    }
+    
+}

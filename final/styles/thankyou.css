@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: var(--normal-text);
+    line-height: 1.6;
+}
+/*Switch theme*/
+.toggle-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+}
+.toggle-btn{
+    width: 40px;
+    height: 40px;
+    background: var(--btn-color);
+    border: none;
+    border-radius: 50%;
+    display: flex;         
+    align-items: center;      
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(145, 70, 255, 0.3);
+}
+
+.toggle-btn:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(145, 70, 255, 0.4);
+}
+/*End Switch theme*/
+/*--HEADER CONFIGURATION-- */
+header{
+    display:grid;
+    grid-template-columns: 44px 1fr 44px;
+    align-items: center;
+    font-family: var(--main-title);
+    font-weight: 500;
+    background: var(--background-page); 
+    color: var(--main-text);
+    padding: 1rem;
+}
+.logo-box {
+    display: flex;
+    justify-content: center;  
+    align-items: center;       
+    gap: 0.5rem;
+}
+.logo-box span{
+    font-size:1.4rem;
+    text-align: center;
+}
+/*--End of header configuration--*/
+/*----NAVIGATION---- */
+nav{
+    background: var(--background-page);
+    font-weight: 600;
+    font-size: 1.2rem;
+    border-bottom: 2px solid var(--main-color);
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 0.5s ease-out;
+}
+#hamButton::before{
+    content: "\2630";
+}
+#hamButton {
+    font-size: 1.7rem;
+    background: none;
+    border: none;
+    color: var(--main-text);
+    cursor: pointer;
+    width: 100%;
+    text-align: right;
+}
+ul.menuLinks li a {
+    display: block;
+    padding: .75rem 2vw;
+    color:var(--main-text);
+    text-decoration: none;
+    text-align: center;
+}
+ul.menuLinks li.current-menu-item a{
+    background: var(--galaxy-title);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+ul.menuLinks{
+    list-style-type: none;
+}
+/* --OPEN MENU--*/
+#hamButton.active::before{
+    content: "X";
+}
+nav ul {
+    overflow: hidden;
+}
+nav.active{
+    grid-template-rows: 1fr;
+}
+/*--END OPEN MENU--*/
+/*Main*/
+h1{
+    font-family: var(--main-title);
+    letter-spacing: 1px;
+    font-size: 2rem;
+}
+
+main{
+    max-width: 85%;
+    margin: 20px auto;
+    min-height: 68vh;
+}
+/*End Main*/
+/*Footer*/
+footer {
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    background: var(--background-page);
+    color: var(--main-text);
+}
+
+footer p {
+    width: 310px;
+    padding: 5px;
+    margin: auto;
+    font-size: 14px;
+}
+
+footer a {
+    color: var(--main-text);
+    text-decoration: none;
+}
+
+footer a:hover {
+    background: var(--galaxy-title);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-decoration: var(--border-card) wavy underline;
+}
+/* End of footer*/
+
+@media only screen and (min-width: 700px) {
+    .toggle-container { top: 10px; right: 10px; }
+    .toggle-btn { padding: 10px 20px; font-size: 14px;}
+    .logo-box span{
+    font-size:2rem;
+    text-align: center;
+    }
+    #animateme {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background: var(--background-page);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-100%);
+    transition: transform 0.3s ease;
+    }
+    /* Menu */
+    #animateme.active {
+        transform: translateY(0);
+    }
+    .menuLinks {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+
+    .menuLinks li {
+        margin: 1.5rem 0;
+    }
+
+    .menuLinks a {
+        color: var(--main-text);
+        text-decoration: none;
+        font-size: 2rem;
+        font-weight: bold;
+
+    }
+    #hamButton.active::before{
+    content: "x";
+    position: relative; 
+    z-index: 1100; 
+    }
+    .hidden{
+        display: none;
+    }
+    /* Menu */
+    h1{
+        font-family: var(--main-title);
+        letter-spacing: 1px;
+        font-size: 3.5rem;
+    }
+    p{
+        font-size: 1.3rem;
+
+    }
+}

@@ -1,0 +1,235 @@
+h1{
+    text-align: center;
+    font-family: var(--main-title);
+    font-size: 4rem;
+}
+/*Showing bands*/
+#member-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin: 10px auto;
+}
+/*Members Cards*/
+.band-card {
+  background: var(--background-page);
+  color: var(--main-text);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: transform 0.3s ease;
+  width: 300px;
+  justify-self:center;
+}
+
+.band-card:hover {
+  transform: translateY(-5px);
+}
+.band-card picture,
+.band-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-bottom: 2px solid var(--border-card);
+}
+.band-card h3{
+    font-family: var(--band-title);
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    margin: 0;
+}
+h2{
+    font-family: var(--main-title);
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 1.7rem;
+    margin: 20px;
+}
+.initial-text h2{
+    font-family: var(--band-title);
+    letter-spacing: 1px;
+    color: var(--purple-text);
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+hr{
+    border: 1px solid var(--line);
+}
+/*Songs display*/
+.filter-btn{
+    list-style: none;
+    padding: 0;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    cursor: pointer;
+    
+}
+.song-button{
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    max-width: 250px;
+    width: 100%;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    text-align: center;
+    margin-top: 5px;
+    font-weight: 500;
+}
+.song-button:hover {
+    background: var(--btn-color);
+    color: white;
+    font-family: var(--band-title);
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  /*Song display cards*/
+.song-card{
+    margin: 10px;
+    justify-self: center;
+    display: grid;
+    grid-template-areas: 
+    "title"
+    "photo"
+    "description";
+    gap: 5px;
+    background: var(--card-color);
+    text-align: center;
+    max-width: 250px;
+    width: 100%;
+    border-radius: 20px 0 20px 0;
+    padding: 10px 2px;
+}
+.song-name{
+    grid-area: title;
+    font-size: 1rem;
+}
+.song-text{
+    grid-area: description;
+    font-size: .9rem;
+    text-align: center;
+}
+.song-text p{
+    font-size: .9rem;
+    text-align: center;
+}
+.song-text a{
+    text-decoration: none;
+    color: black;
+}
+.song-text a:hover{
+    background: var(--galaxy-title);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.song-img{
+    grid-area: photo;
+    justify-self: center;
+    align-self: center;
+}
+.social-media{
+    display: flex;
+    margin: 10px auto;
+    width: 50%;
+    justify-content: space-around;
+}
+
+
+/*Large version*/
+@media only screen and (min-width: 700px) {
+    .initial-text{
+        margin-top: -10px;
+        margin-bottom: 40px;
+    }
+    .initial-text p{
+        font-size: 1.2rem;
+        margin: 15px auto;
+    }
+    .initial-text h2{
+        font-size: 2rem;
+    }
+    /*Cards section*/
+    #member-cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 1.5rem;
+        margin-top: 10px;
+        margin-bottom: 40px;
+    }
+    .band-card {
+       width: 100%;
+    }
+    .band-card img {
+        width: 100%;
+        height: auto;
+    }
+    .band-card h3{
+        font-size: 1rem;
+        padding: 0.75rem;
+    }
+    .band-card p{
+        font-size: .8rem;
+    }
+    h2{
+        font-family: var(--main-title);
+        letter-spacing: 1px;
+        text-align: center;
+        font-size: 2.5rem;
+        margin: 20px;
+    }
+
+    /*Songs display*/
+
+    .song-button{
+        max-width: 150px;
+        width: 100%;
+    }
+    .songs-box{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 5px;
+    }
+
+    .song-card{
+        grid-template-areas: 
+        "photo title"
+        "photo description";
+        max-width: 500px;
+        width: 100%;
+        text-align: left;
+        border-radius: 10px;
+    }
+    .song-name{
+        width: 100%;
+        max-width: 250px;
+    }
+    .song-text{
+        width: 100%;
+        max-width: 250px;
+        text-align: left;
+    }
+    .song-text p{
+        text-align: left;
+    }
+    .song-img{
+        margin: auto;
+    }
+
+}
+
+@media only screen and (min-width: 1020px){
+    .band-card h3{
+        font-size: 1rem;
+        padding: 0.75rem;
+    }
+    .band-card p{
+        font-size: 1rem;
+    }
+    
+}

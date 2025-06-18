@@ -1,0 +1,20 @@
+:root{
+    --main-title: "Bebas Neue", sans-serif;
+    --band-title: "Dela Gothic One", sans-serif;
+    --normal-text: "Montserrat", sans-serif;
+    --background-page: linear-gradient(135deg, #dac1ff 0%, #f1e7ff 100%);
+    --bk-spin: radial-gradient(circle at 20% 20%, #9146ff20 0%, transparent 50%), radial-gradient(circle at 80% 80%, #00ffff20 0%, transparent 50%), radial-gradient(circle at 40% 60%, #ffffff10 0%, transparent 30%);
+    --btn-color: linear-gradient(45deg,#00ffff, #B380FF, #bb87ff, #00ffff);
+    --galaxy-title: linear-gradient(45deg, #9146ff, #00ffff, #9146ff);
+    --card-color: linear-gradient(135deg, rgba(255,255,255,0.9), rgba(221, 198, 255, 0.5));
+    --border-card:  rgba(145, 70, 255, 0.3);
+    --card-box-sdw: 0 8px 32px rgba(145, 70, 255, 0.1), 0 4px 16px rgba(0, 255, 255, 0.05);
+    --card-box-sdw-hover: 0 15px 40px rgba(145, 70, 255, 0.3), 0 8px 20px rgba(0, 255, 255, 0.2);
+    --card-hover: linear-gradient(135deg, #9146ff, #00ffff);
+    --main-text: #1a1a3a;
+    --subtitles-text: #4a4a6a;
+    --purple-text: #9146ff;
+    --blue-text: #00ffff;
+    --required-text: #EF6351;
+    --line: #dac1ff;
+}

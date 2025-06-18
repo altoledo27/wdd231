@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name= "description" content= "Discover the world of your favorite groups. Welcome to K-POP Galaxy">
+    <meta name="author" content="Ana Laura Toledo">
+    <meta property="og:title" content="K-POP Galaxy">
+    <meta property="og:description" content="Discover the world of your favorite groups. Welcome to K-POP Galaxy">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:image" content="https://altoledo27.github.io/wdd231/final/images/logo-real.webp" />
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="K-POP Galaxy"> 
+    <meta property="og:url" content="https://altoledo27.github.io/wdd231/final/index.html">
+    <title>K-Pop Galaxy | HOME</title>
+    <link rel="stylesheet" href="styles/dark-mode.css" id="theme">
+    <link rel="stylesheet" href="styles/default.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dela+Gothic+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
+    <script src="scripts/switch-theme.js" defer></script>
+</head>
+<body>
+    <div class="toggle-container">
+        <button class="toggle-btn" id="themeswitch">🌙</button>
+    </div>
+    <div class="design-section up-container" id="darkMode">
+        <div class="logo-box">
+            <img src="images/logo-real.webp"  alt="K-POP Galaxy logo" width="50" height="50">
+        </div>
+        <h1>K-POP GALAXY</h1>
+        <p class="subtitle">Discover the world of your favorite groups</p>
+        <div class="groups-container">
+            <a href="bts.html" class="group-card">BTS</a>
+            <a href="stray-kids.html" class="group-card">STRAY KIDS</a>
+        </div>
+    </div>
+    <main>
+        <div class="main-container">
+            <div class="content-elements">
+                <div class="content-text">
+                    <h2>What is K-pop?</h2>
+                    <p>K-pop, short for Korean pop music, is a genre of popular music originating from South Korea. It's characterized by catchy melodies, high-production music videos, and intricate choreography, often performed by "idol" groups consisting of trained singers and dancers.
+                    <br> K-pop draws influence from various genres like pop, hip-hop, R&B, and electronic music, and has become a global cultural phenomenon with a dedicated international fanbase. 
+                    <br>The roots of K-pop began in the 1950s, however, and have since then already been influenced a lot by different types of Western music and pop groups. American pop music culture has especially had - and still does have - an effect on K-Pop.</p>
+                </div>
+                <picture class="kpop-img">
+                        <source srcset="images/ateez-large.webp" media = "(min-width: 1020px)" width="800" height="800"> 
+                        <source srcset="images/ateez-medium.webp" media = "(min-width: 600px)" width="500" height="500"> 
+                        <img src="images/ateez.webp" alt="Ateez" width="300" height="300">
+                </picture>
+            </div>
+            <dialog class="modal" id="band-info"></dialog>
+            <hr>
+            <h2>Popular K-Pop Groups</h2>
+            <div id="show-bands"></div>
+            <button id="shuffle-button">Show me others!</button>
+            <script type="module" src="scripts/show-band.js"></script>
+            <hr>
+            <div id="join-us" class="join-us">
+                <div class="invitation-join">
+                    <picture class="kpop-img2">
+                            <source srcset="images/enhypen-large.webp" media = "(min-width: 1020px)" width="800" height="800"> 
+                            <source srcset="images/enhypen-medium.webp" media = "(min-width: 600px)" width="500" height="500"> 
+                            <img src="images/enhypen.webp" alt="ENHYPEN" width="300" height="300" loading="lazy">
+                    </picture>
+                </div>
+                <div class="membership-form">
+                    <form method="GET" action="thankyou.html" class="amForm" autocomplete="on">
+                        <input name="timestamp" type="hidden" id="timestamp">
+                        <h3>Want to know more?</h3>
+                        <h4>Don't miss our newsletter</h4>
+                        <p>We'll give you just the right amount of love!</p>
+                        <label>First Name <input type="text" name="first" required autocomplete="given-name" title="Your First Name"></label>
+                        <label>Last Name <input type="text" name="last" required autocomplete="family-name" title="Your Last Name"></label>
+                        <label>Your Email <input type="email" name="email" required placeholder="johndoe93@email.com"  title="Your Email" autocomplete="email"></label>
+                        <input type="submit" value="Subscribe">
+                    </form>
+            </div>
+            
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p tabindex="0">@<span id="currentyear" tabindex="0"></span> K-POP GALAXY</p>
+        <p tabindex="0"><a href="atributions.html" tabindex="0">Atributions</a> | <a href="#" tabindex="0">Video</a></p>
+        <p id="lastModified" tabindex="0"></p>
+    </footer>
+</body>
+</html>

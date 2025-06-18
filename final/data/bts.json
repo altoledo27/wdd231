@@ -1,0 +1,81 @@
+{
+     "members":[{
+            "name": "RM",
+            "birth": "1994.09.12",
+            "position": "Leader, Main Rapper",
+            "imgUrlD": "images/rm-dark.webp",
+            "imgUrlMediumD": "images/rm-dark-medium.webp",
+            "imgUrlLargeD": "images/rm-dark-large.webp",
+            "imgUrlL": "images/rm-light.webp",
+            "imgUrlMediumL": "images/rm-light-medium.webp",
+            "imgUrlLargeL": "images/rm-light-large.webp"
+        },
+        {
+            "name": "Jin",
+            "birth": "1992.12.4",
+            "position": "Vocalist, Visual",
+            "imgUrlD": "images/jin-dark.webp",
+            "imgUrlMediumD": "images/jin-dark-medium.webp",
+            "imgUrlLargeD": "images/jin-dark-large.webp",
+            "imgUrlL": "images/jin-light.webp",
+            "imgUrlMediumL": "images/jin-light-medium.webp",
+            "imgUrlLargeL": "images/jin-light-large.webp"
+        },
+        {
+            "name": "SUGA",
+            "birth": "1993.03.09",
+            "position": "Lead Rapper, Producer",
+            "imgUrlD": "images/suga-dark.webp",
+            "imgUrlMediumD": "images/suga-dark-medium.webp",
+            "imgUrlLargeD": "images/suga-dark-large.webp",
+            "imgUrlL": "images/suga-light.webp",
+            "imgUrlMediumL": "images/suga-light-medium.webp",
+            "imgUrlLargeL": "images/suga-light-large.webp"
+        },
+        {
+            "name": "j-hope",
+            "birth": "1994.02.18",
+            "position": "Main Dancer, Rapper, Sub-Vocalist",
+            "imgUrlD": "images/jhope-dark.webp",
+            "imgUrlMediumD": "images/jhope-dark-medium.webp",
+            "imgUrlLargeD": "images/jhope-dark-large.webp",
+            "imgUrlL": "images/jhope-light.webp",
+            "imgUrlMediumL": "images/jhope-light-medium.webp",
+            "imgUrlLargeL": "images/jhope-light-large.webp"
+        },
+        {
+            "name": "Jimin",
+            "birth": "1995.10.13",
+            "position": "Main Dancer, Lead Vocalist",
+            "imgUrlD": "images/jimin-dark.webp",
+            "imgUrlMediumD": "images/jimin-dark-medium.webp",
+            "imgUrlLargeD": "images/jimin-dark-large.webp",
+            "imgUrlL": "images/jimin-light.webp",
+            "imgUrlMediumL": "images/jimin-light-medium.webp",
+            "imgUrlLargeL": "images/jimin-light-large.webp"
+        },
+        {
+            "name": "V",
+            "birth": "1995.12.30",
+            "position": "Sub Vocalist, Visual, Lead Dancer",
+            "imgUrlD": "images/v-dark.webp",
+            "imgUrlMediumD": "images/v-dark-medium.webp",
+            "imgUrlLargeD": "images/v-dark-large.webp",
+            "imgUrlL": "images/v-light.webp",
+            "imgUrlMediumL": "images/v-light-medium.webp",
+            "imgUrlLargeL": "images/v-light-large.webp"
+        },
+        {
+            "name": "Jung Kook",
+            "birth": "1997.09.01",
+            "position": "Main Vocalist, Sub Rapper, Lead Dancer",
+            "imgUrlD": "images/jk-dark.webp",
+            "imgUrlMediumD": "images/jk-dark-medium.webp",
+            "imgUrlLargeD": "images/jk-dark-large.webp",
+            "imgUrlL": "images/jk-light.webp",
+            "imgUrlMediumL": "images/jk-light-medium.webp",
+            "imgUrlLargeL": "images/jk-light-large.webp"
+        }
+     ]
+    
+}

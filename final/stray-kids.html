@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K-POP Galaxy | Stray Kids</title>
+    <link rel="stylesheet" href="styles/dark-mode.css" id="theme">
+    <link rel="stylesheet" href="styles/default.css">
+    <link rel="stylesheet" href="styles/stray-kids.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dela+Gothic+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
+    <script src="scripts/switch-theme.js" defer></script>
+    <script src="scripts/ham-button.js" defer></script>
+    <script src="scripts/stray-kids.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <button id="hamButton" aria-label="Ham Button" title="Ham button"></button>
+            <div class="logo-box">
+                <img src="images/logo-real.webp"  alt="K-POP Galaxy logo" width="40" height="40">
+                <span> K-POP Galaxy</span>
+            </div>
+        </div>
+    
+    <nav id="animateme" class="hidden">
+        <ul class="menuLinks">
+            <li ><a href="index.html" title="Home">HOME</a></li>
+            <li><a href="bts.html" title="BTS">BTS</a></li>
+            <li class="current-menu-item"><a href="stray-kids.html" title="Stray Kids">STRAY KIDS</a></li>
+            <li><a href="atributions.html" title="Atributions">ATRIBUTIONS</a></li>
+        </ul>
+    </nav>
+    </header>
+    <div class="toggle-container">
+        <button class="toggle-btn" id="themeswitch">🌙</button>
+    </div>
+    <main>
+        <div class="main-container">
+            <h1>Stray Kids</h1>
+            <div class="initial-text">
+                <p>Stray Kids (Korean: 스트레이 키즈; Japanese: ストレイキッズ) is an eight-member boy group under JYP Entertainment. They were formed through the competition reality show of the same name.The self-producing group is composed of eight members: Bang Chan (leader), Lee Know, Changbin, Hyunjin, Han, Felix, Seungmin, and I.N. Known for their hard-hitting blend of hip-hop, EDM, and rock, Stray Kids gained attention for their raw, powerful sound and messages centered on youth struggles, identity, and resilience.</p>
+                <p>Stray Kids officially debuted in 2018 with the EP I Am NOT, kicking off a trilogy (I Am WHO, I Am YOU) that explored self-discovery. Over time, they built a reputation for producing their own music—particularly through the in-house production unit 3RACHA (Bang Chan, Changbin, Han)—and for their bold, unconventional style.</p>
+                <p>Renowned for their intense performances, creative independence, and authentic connection with fans (called STAY), Stray Kids have become one of K-pop's leading groups, pushing boundaries with every release and establishing a unique sonic and artistic identity.</p>
+            </div>
+            <h2>Stray Kids Members</h2>
+            <div id="member-cards" class="member-cards"></div>
+            <h2>Follow their social media</h2>
+            <div class="social-media">
+                <a href="https://www.instagram.com/realstraykids" target="_blank"><img src="images/instagram.svg" alt="Logo of instagram" width="40" height="40"></a>
+                <a href="https://www.youtube.com/c/StrayKids" target="_blank"><img src="images/youtube.svg" alt="Logo of youtube" width="40" height="40"></a>
+                <a href="https://x.com/Stray_Kids" target="_blank"><img src="images/x.svg" alt="Logo of X" width="40" height="40"></a>
+                <a href="https://www.facebook.com/JYPEStrayKids?_rdc=1&_rdr#" target="_blank"><img src="images/facebook.svg" alt="Logo of facebook" width="40" height="40"></a>
+            </div>
+            <h2>Want to know where to start?</h2>
+            <div class="loader-box" id="loader-box"></div>
+            
+        </div>
+    </main>
+    <footer>
+        <p tabindex="0">@<span id="currentyear" tabindex="0"></span> K-POP GALAXY</p>
+        <p tabindex="0"><a href="atributions.html" tabindex="0">Atributions</a> | <a href="#" tabindex="0">Video</a></p>
+        <p id="lastModified" tabindex="0"></p>
+    </footer>
+</body>
+</html>

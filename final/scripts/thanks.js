@@ -1,0 +1,20 @@
+const resultsDiv = document.querySelector("#results");
+resultsDiv.innerHTML = "";
+
+const formData = new URLSearchParams(window.location.search);
+
+let submittedDateString = new Date(+formData.get('timestamp')).toLocaleDateString("en-US");
+let submittedTimeString = new Date(+formData.get('timestamp')).toLocaleTimeString("en-US");
+
+const p1 = document.createElement("p");
+const p2 = document.createElement("p");
+const p3 = document.createElement("p");
+
+p1.textContent = `Applicant Name: ${formData.get('first')} ${formData.get('last')}`
+p2.textContent = `Email Address: ${formData.get('email')}`
+p3.textContent = `Submission Date and Time: ${submittedDateString} ${submittedTimeString}`
+
+resultsDiv.appendChild(p1);
+resultsDiv.appendChild(p2);
+resultsDiv.appendChild(p3);
+
