@@ -1,5 +1,6 @@
 import {bands} from '../data/bands.mjs';
 
+
 const shuffleButton = document.querySelector('#shuffle-button');
 //Dialog
 function showBandDetails(band){

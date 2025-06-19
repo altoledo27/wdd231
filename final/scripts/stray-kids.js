@@ -16,7 +16,6 @@ fetch(`https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&maxR
             <h3>${element.snippet.title}</h3>
         </a>`;
     });
-
     console.log(data.items[0]);
   })
   .catch(error => {
