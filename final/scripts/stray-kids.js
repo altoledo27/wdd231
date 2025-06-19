@@ -35,8 +35,7 @@ async function getMembersData() {
 
   }catch(error){
     console.error("Error fetching data:", error);
-  }
-    
+  }   
 }
 
 const displayLogoCards = (members) => {
